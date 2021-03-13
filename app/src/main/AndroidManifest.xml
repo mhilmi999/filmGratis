@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.murphytechid.filmgratis"
-    >
+    package="com.murphytechid.filmgratis">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -21,7 +21,7 @@
         
         <activity android:name=".activities.SettingActivity" />
         <activity android:name=".activities.DetailMovieActivity" />
-        <activity android:name=".activities.DetailTVActivity" />
+        <activity android:name=".activities.DetailTelevisionActivity" />
 
         <activity
             android:name=".activities.MainActivity"
